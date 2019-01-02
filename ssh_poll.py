@@ -240,8 +240,8 @@ if __name__ == '__main__':
     hostname = '172.23.29.118'
     port = 22
     username = 'root'
-    password = 'a'
-    sudo_password = 'a'  # assume that it is the same password
+    password = 'root'
+    sudo_password = 'root'  # assume that it is the same password
  
     # Create the SSH connection
     ssh = MySSH()
